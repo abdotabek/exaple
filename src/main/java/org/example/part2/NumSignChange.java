@@ -2,6 +2,12 @@ package org.example.part2;
 
 import java.util.Arrays;
 
+/**
+ * Определить количество смен знака (NumSignChange) для
+ * элементов массива. Если NumSignChange > 0 , то все элементы
+ * после A[NumSignChange] заменить значением кубом разностей
+ * между первым и минимальным элементами массива.
+ */
 public class NumSignChange {
     public static void main(String[] args) {
         int[] array = {3, -5, 6, -8, 3};
