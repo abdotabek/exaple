@@ -7,8 +7,10 @@ public class SumMaxMin {
         int[] array = {4, 6, 1, 8, 3, 7, 5, 9};
 
         System.out.println(Arrays.toString(array));
+
         int middle = array.length / 2;
         int max = array[middle];
+
         for (int i = middle + 1; i < array.length; i++) {
             if (array[i] > max) {
                 max = array[i];
@@ -16,6 +18,7 @@ public class SumMaxMin {
         }
         int min = array[0];
         int minIndex = 0;
+
         for (int i = 0; i < middle; i++) {
             if (array[i] < min) {
                 min = array[i];
